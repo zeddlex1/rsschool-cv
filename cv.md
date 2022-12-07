@@ -1,19 +1,16 @@
-<h1>ALIAKSEI ZHYKH</h1>
+# ALIAKSEI ZHYKH
 
-<h3>Contacts</h3>
-
+### Contacts
 Phone: (+375 29) 304-12-15
 
 E-mail: a.zeddlex@gmail.com
 
 GitHub: @zeddlex1
 
-<h3>About me</h3>
-
+### About me
 Most of my free time I spend learning in particly new sphere for me. I wish to be a FS developer. I am a person who want to get new knowledge and IT sphere is good way for this. My first work was producing pharmacy. Later I changed it to design and building. And now I am a student again.
 
-<h3>Skills</h3>
-
+### Skills
 Python
 
 Django
@@ -28,8 +25,8 @@ Revit
 
 Illustrator
 
-<h3>Code example</h3>
-
+### Code example
+```
 def modify_list(lst):
 
     j = 0
@@ -45,14 +42,13 @@ def modify_list(lst):
     del lst[0:m]
     
     return lst
-    
-<h3>Courses</h3>
-
+```
+   
+### Courses
 Technological University
 
 Programming on Python (https://stepik.org/cert/1709300)
 
 
-<h3>Languages</h3>
-
+### Languages
 English - A2+
