@@ -1,13 +1,114 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-    <title>WebAdmin</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Mono" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>cv</title>
 </head>
+
 <body>
-    Hello! World!
+
+<header class="header">
+  <div class="container">
+    <nav class="nav">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+        <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+        <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+        <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main class="main">
+  <div class="container main-container">
+    <section class="section profile"  id="profile">
+        <img src="assets/jpg/avatar.JPG" alt="my photo" class="avatar">
+        <h1 class="section-title"> ALIAKSEI ZHYKH </h1>
+        <p class="profile-descriprion"> Junior FE developer </p>
+    </section>
+
+    <section class="section summary" id="summary">
+        <h2> Summary </h2>
+        <p> Most of my free time I spend learning in particly new sphere for me. I wish to be a FS developer. I am a person who want to get new knowledge and IT sphere is good way for this. My first work was producing pharmacy. Later I changed it to design and building. And now I am a student again. </p>
+    </section>
+
+    <section class="section" id="contacts">
+        <h2> Contacts </h2>
+        <ul class="contacts">
+          <li>E-mail: <a href="mailto:a.zeddlex@gmail.com" class="nav-link"> a.zeddlex@gmail.com </a></li>
+          <li>GitHub: <a href="https://github.com/zeddlex1" class="nav-link"> zeddlex1 </a> </li>
+        </ul>
+    </section>
+
+    <section class="section" id="skills">
+         <h2> Skills </h2>
+        <ul>
+          <li> Python </li>
+          <li> Django </li>
+          <li> JavaScript </li>
+          <li> Git, GitHub</li>
+          <li> PyCharm </li>
+          <li> Revit </li>
+          <li> Illustrator </li>
+        </ul>
+    </section>
+
+    <section class="section" id="code">
+        <h2> Code </h2>
+        <pre class="pre">
+<code>
+def modify_list(lst):
+  j = 0
+  m = len(lst)
+  for i in range(len(lst)):
+    if lst[i] % 2 == 0:
+      lst.append(lst[i] // 2)
+  del lst[0:m]
+  return lst
+</code>
+        </pre>
+    </section>
+
+    <section class="section" id="courses">
+        <h2> Courses </h2>
+        <a href="https://stepik.org/cert/1709300" class="nav-link"> Programming on Python </a>
+    </section>
+
+    <section class="section" id="projects">
+         <h2> Projects </h2>
+        <a href="https://zeddlex1.github.io/rsschool-cv/" class="nav-link"> Curriculum vitae </a>
+    </section>
+
+    <section class="section education" id="education">
+          <h2> Education </h2>
+        <p>Belarusian State Technological University</p>
+    </section>
+
+    <section class="section english" id="english">
+         <h2> English </h2>
+         <p> B1 - Pre-Intermediate </p>
+    </section>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container padding-left">
+      <span class="line"></span>
+      2022
+      <a href="https://github.com/zeddlex1" class="nav-link"> zeddlex1</a>
+      <a href="https://rs.school/js-stage0/"> <img src="assets/svg/rs_school_js.svg" alt="course-logo" class="rsschool"> </a>
+  </div>
+</footer>
 </body>
 </html>
